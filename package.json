@@ -1,5 +1,5 @@
 {
-  "name": "mvp-app",
+  "name":"home_mgmt",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",

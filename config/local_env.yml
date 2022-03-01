@@ -1,2 +1,2 @@
-mvp_app_DATABASE_USER: postgres
-mvp_app_DATABASE_PASSWORD: Akira123!
+home_mgmt_DATABASE_USER: postgres
+home_mgmt_DATABASE_PASSWORD: Akira123!
