@@ -9,4 +9,7 @@ Rails.application.routes.draw do
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
   resources :users
+
+  get '/service-worker.js', to: 'service_workers/workers#index'
+  get '/manifest.json', to: 'service_workers/manifests#index'
 end

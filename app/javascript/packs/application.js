@@ -13,3 +13,12 @@ import "bootstrap"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register('/service-worker.js', { scope: './' })
+                         .then(function(registration) {
+                           console.log('[Companion]', 'Service worker registered!')
+                           console.log(registration)
+                         })
+}
